@@ -1,0 +1,203 @@
+/* styles.css */
+
+/* Reset some default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Style the header section */
+header {
+    background-color: #20232a; /* Dark background */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Style the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    border: 2px solid #333; /* Dark gray border */
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f90;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style the login and sign-up links */
+.user-links a {
+    color: whitesmoke; /* Dark gray text color */
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.user-links a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    color: #7c40bd; /* Custom color on button hover */
+    background-color: transparent;
+}
+
+.bar {
+    background-color: #d7e7df; /* Light green background */
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.bar button {
+    background-color: #363436; /* Dark gray background */
+    color: white;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    font-size: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.bar button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.discount {
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%; /* Set the width of the div */
+    height: 300px; /* Set the height of the div */
+    background-image: url(A\ cartoon\ pengu\ 0.png); /* Replace with your image path */
+    background-size: cover;
+}
+
+.discount img {
+    max-width: 100%; /* Set the maximum width for the image */
+    max-height: 100%; /* Set the maximum height for the image */
+}
+
+.content1 {
+    margin-top: 20px; /* Adjusted for better spacing */
+}
+
+.content1 h1 {
+    text-align: center; /* Center-align the heading */
+}
+
+.content2 {
+    text-align: center;
+    padding: 20px; /* Added some padding for better readability */
+    font-family: 'Okra', Helvetica, sans-serif; /* Use your preferred font here */
+}
+
+.locations {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: dashed;
+    padding-bottom: 30px;
+}
+
+.locations button {
+    border-radius: 20px;
+    padding: 2%;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    margin: 10px; /* Adjusted the margin for better spacing */
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the footer content container */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the footer logo */
+.footer-logo img {
+    max-width: 100px;
+}
+
+/* Style the footer info section */
+.footer-info {
+    text-align: left;
+    padding-left: 20px; /* Added padding for better spacing */
+}
+
+.footer-info p {
+    font-weight: bold;
+}
+
+/* Style the footer links */
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #ff9900;
+}
